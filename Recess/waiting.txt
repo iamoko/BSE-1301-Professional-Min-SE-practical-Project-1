@@ -1,0 +1,9 @@
+1	56626	rev	none
+2	56626	double	nothing
+3	56626	replace	mind 1-h
+1	38388	rev	mmob
+2	56626	double	nothing
+3	56626	replace	mind 1-h
+1	38394	rev	none
+2	38388	double	none
+2	38394	double	many

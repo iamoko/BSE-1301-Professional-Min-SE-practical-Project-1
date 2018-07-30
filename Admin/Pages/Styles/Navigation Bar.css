@@ -1,0 +1,84 @@
+body{
+  font: 13px/20px normal Helvetica, Arial, sans-serif;
+  background-color:#f4f4f4;
+  overflow-x:hidden;
+
+}
+.side-nav{
+  height:100vh;
+  width:250px;
+  position: absolute;
+  top: 0;
+  position:fixed;
+  left:-45px;
+  background: rgb(40,40,40);
+  overflow-x:hidden;
+  padding-top:10px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 8px 30px;
+  text-decoration:none;
+  font-size:15px;
+  color:#ccc;
+  display:block;
+  transition:0.3s;
+}
+.lasto a{
+  border-bottom:none;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:18px;
+  margin-left:50px;
+}
+
+#main{
+  position: absolute;
+  transition:margin-left 0.5s;
+  top: 5%;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+}
+#main h1{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+  /*.open-slide{display:none}*/
+}
+
+
+
+
+a{
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+a:hover{
+  outline: none;
+  transition: .4s;
+    text-decoration: none;
+    color: #72afd2;
+}
+a:active{
+  background-color: white;
+  color: white;
+}
+
+

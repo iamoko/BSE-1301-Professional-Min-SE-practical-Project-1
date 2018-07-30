@@ -1,0 +1,3 @@
+56626	rev	none
+56626	double	nothing
+56626	replace	mind 1-h
